@@ -1,1 +1,4 @@
-console.log("Hello world!");
+function greeting(name) {
+    return "Hello, " + name + "!";
+}
+module.exports = greeting;
